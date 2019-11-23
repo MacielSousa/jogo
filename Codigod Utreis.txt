@@ -1,0 +1,24 @@
+
+this.load.image("face", "images/face.png");
+#################################################
+this.face = this.add.image(0,0, "face");
+        //this.face.setOrigin(0,0);
+
+        this.face.x=game.config.width/2;
+        this.face.y=fame.config.height/2;
+        //this.face.displayWidth=200;
+        //this.face.scaleY=this.face.scaleX;
+        //this.face.scaleX=.25;
+        //this.face.scaleX=.25;
+        //this.face.angle=45; //o and 1
+
+####################################################
+update() {
+        //constant running loop
+        this.char.x+=2;
+        if(this.char.x>game.config.width){
+            this.char.x=0;
+        }
+    }
+
+#######################################################
